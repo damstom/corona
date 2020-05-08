@@ -1,0 +1,28 @@
+img{
+    height: 500px;
+    width: 300px;
+}
+
+.kaarten{
+    display: flex;
+}
+
+.kolom{
+    padding: 15px;
+    height: 500px;
+    width: 300px;
+}
+
+#vorige{
+    margin-left: 200px;
+}
+
+#vorigeImg{
+    height: 1000px;
+    width: 600px;
+}
+
+#koningen{
+    margin-left: 50px;
+    font-size: 46px;
+}

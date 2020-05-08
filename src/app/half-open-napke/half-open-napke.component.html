@@ -1,0 +1,14 @@
+<div class="kaarten">
+    <div class="kolom">
+        <img *ngIf="this.dicht[0] != null" src="assets/cards/back.png" (click)="nextDicht()">
+    </div>
+    <div class="kolom">
+        <img *ngIf="this.open[0] != null" src='assets/cards/{{this.open[0]}}.png' (click)="nextOpen()">
+    </div>
+    <div id="vorige">
+        <img id="vorigeImg" src='assets/cards/{{this.vorige}}.png'>
+    </div>
+    <p id="koningen">Keuningen: {{keuningen}}</p>
+</div>
+
+
